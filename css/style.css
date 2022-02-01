@@ -1,0 +1,79 @@
+header img {
+  width: 100%;
+  }
+
+p {
+  font-family: 'Playfair Display', serif;
+  color: rgba(143,45,28,255);
+}
+
+body {
+  background-color: rgba(236, 236,236,255);
+  font-weight: 150;
+  font-style: normal;
+}
+
+
+/* navigatie */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(123,35,23);
+  position: sticky;
+  top: 0;
+
+}
+
+.nav a {
+  padding: 0.5em;
+  font-size: 2em;
+  text-decoration: none;
+  color: rgba(248,240,229,255);
+  font-family: 'Playfair Display', serif;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+
+.nav a:hover{
+  color: rgba(55,15,12,255);
+}
+
+/* tekst1 */
+
+.hstekst{
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  color: rgba(60,5,5,255);
+  scroll-margin-top: 100px;
+}
+
+.plaatje{
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  background-color: #7B2217;
+  padding: 10px;
+  }
+
+  .socials{
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    transition-property: color;
+    transition-duration: 500ms;
+  }
+
+  .socials:hover{
+    color: rgba(55,15,12,255);
+  }
